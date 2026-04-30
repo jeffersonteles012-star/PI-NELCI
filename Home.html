@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <!-- link do icon do bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand - text center" href="#">JT Informática</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <div class="d-flex justify-content-center">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                    </div>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<style>
+    .carousel-inner img {
+        width: 100%;
+        height: 1100px;
+        object-fit: cover;
+        object-position: center 80%;
+    }
+</style>
+<div id="carouselPecas" class="carousel slide mt-5" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselPecas" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselPecas" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselPecas" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item"></div>
+        <div class="carousel-item active">
+            <img src="https://external-preview.redd.it/msi-unveils-amd-x870-motherboard-lineup-meg-x870e-godlike-v0-_rACbQCtkevPUTBopI5Var_gNbdO4BFRu4HOBDCgcsM.jpg?auto=webp&s=6ac46527a6a5f0dfcefcd26b5cdd43e58a1943ec"
+                class="d-block w-100" alt="Placa Mãe">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Placa Mãe</h5>
+                <p>Componente essencial do computador</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.amd.com/content/dam/amd/en/images/products/processors/ryzen/pia-amd-ryzen-9000-series-thumbnail.jpg"
+                class="d-block w-100" alt="Processador">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Processador</h5>
+                <p>CPU de alto desempenho</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://images.kabum.com.br/produtos/fotos/454461/memoria-husky-gaming-blizzard-rgb-16gb-3600mhz-ddr4-cl26-dourada-hgmf028_1696871809_gg.jpg"
+                class="d-block w-100" alt="Memória RAM">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Memória RAM</h5>
+                <p>Aumente o desempenho do seu PC</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPecas" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselPecas" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<div class="container mt-5 mb-5">
+    <h2 class="text-center mb-5">Categorias</h2>
+    <div class="row">
+        <div class="col-md-3 col-sm-6 mb-4" style="width: 12.5%;">
+            <a href="Placamae.html"
+                class="card bg-primary text-white text-center rounded-circle d-flex align-items-center justify-content-center"
+                style="width: 150px; height: 150px; margin: 0 auto; text-decoration: none;">              
+                <div>
+                    <i class="bi bi-motherboard" style="font-size: 3rem;"></i>
+                    <p class="mt-2 mb-0" style="font-size: 0.9rem;">Placa Mãe</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4" style="width: 12.5%;">
+            <a href="Processadores.html">
+            <div class="card bg-primary text-white text-center rounded-circle d-flex align-items-center justify-content-center"
+                style="width: 150px; height: 150px; margin: 0 auto;">
+
+                <div>
+                    <i class="bi bi-cpu" style="font-size: 3rem;"></i>
+                    <p class="mt-2 mb-0" style="font-size: 0.9rem;">Processador</p>
+                </div>
+            </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4" style="width: 12.5%;">
+            <a href="Memoria.html">
+            <div class="card bg-primary text-white text-center rounded-circle d-flex align-items-center justify-content-center"
+                style="width: 150px; height: 150px; margin: 0 auto;">
+                <div>
+                    <i class="bi bi-memory" style="font-size: 3rem;"></i>
+                    <p class="mt-2 mb-0" style="font-size: 0.9rem;">Memória RAM</p>
+                </div>
+            </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4" style="width: 12.5%;">
+            <a href="Ssd.html">
+            <div class="card bg-primary text-white text-center rounded-circle d-flex align-items-center justify-content-center"
+                style="width: 150px; height: 150px; margin: 0 auto;">
+                <div>
+                    <i class="bi bi-hdd" style="font-size: 3rem;"></i>
+                    <p class="mt-2 mb-0" style="font-size: 0.9rem;">SSD</p>
+                </div>
+            </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4" style="width: 12.5%;">
+            <a href="Fontes.html">
+            <div class="card bg-primary text-white text-center rounded-circle d-flex align-items-center justify-content-center"
+                style="width: 150px; height: 150px; margin: 0 auto;">
+                <div>
+                    <i class="bi bi-lightning-charge" style="font-size: 3rem;"></i>
+                    <p class="mt-2 mb-0" style="font-size: 0.9rem;">Fonte</p>
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4" style="width: 12.5%;">
+            <a href="PlacadeVideo.html">
+            <div class="card bg-primary text-white text-center rounded-circle d-flex align-items-center justify-content-center"
+                style="width: 150px; height: 150px; margin: 0 auto;">
+                <div>
+                    <i class="bi bi-gpu-card" style="font-size: 3rem;"></i>
+                    <p class="mt-2 mb-0" style="font-size: 0.9rem;">Placa Vídeo</p>
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4" style="width: 12.5%;">
+            <div class="card bg-primary text-white text-center rounded-circle d-flex align-items-center justify-content-center"
+                style="width: 150px; height: 150px; margin: 0 auto;">
+                <div>
+                    <i class="bi bi-fan" style="font-size: 3rem;"></i>
+                    <p class="mt-2 mb-0" style="font-size: 0.9rem;">Water Cooler</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4" style="width: 12.5%;">
+            <div class="card bg-primary text-white text-center rounded-circle d-flex align-items-center justify-content-center"
+                style="width: 150px; height: 150px; margin: 0 auto;">
+                <div>
+                    <i class="bi bi-pc-display-horizontal" style="font-size: 3rem;"></i>
+                    <p class="mt-2 mb-0" style="font-size: 0.9rem;">Gabinete</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 mb-4 ">
+            <div class="card">
+                <img src="https://images0.kabum.com.br/produtos/fotos/725580/placa-mae-asus-prime-b850-plus-amd-am5-atx-ddr5-wi-fi-6e-preto-prime-b850-plus-wifi_1751982358_gg.jpg"
+                    class="card-img-top" alt="Placa Mãe">
+                <div class="card-body">
+                    <h5 class="card-title">Placa Mãe</h5>
+                    <p class="card-text">Placa-Mãe ASUS TUF GAMING X870-PLUS WIFI 7, AMD AM5, DDR5, WIFI, Preto -
+                        90MB1IU0-M0EAY0</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="https://images8.kabum.com.br/produtos/fotos/520368/processador-amd-ryzen-5-5600gt-3-6-ghz-4-6ghz-max-turbo-cache-4mb-6-nucleos-12-threads-am4-100-100001488box_1708024586_gg.jpg"
+                    class="card-img-top" alt="Processador">
+                <div class="card-body">
+                    <h5 class="card-title">Processador</h5>
+                    <p class="card-text">Processador AMD Ryzen 5 5600GT, 3.6 GHz, (4.6GHz Max Turbo), Cache 4MB, 6
+                        Núcleos, 12 Threads, AM4</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="https://images1.kabum.com.br/produtos/fotos/454461/memoria-husky-gaming-blizzard-rgb-16gb-3600mhz-ddr4-cl26-dourada-hgmf028_1696871808_gg.jpg"
+                    class="card-img-top" alt="Memória RAM">
+                <div class="card-body">
+                    <h5 class="card-title">Memória RAM</h5>
+                    <p class="card-text">Memória RAM Husky Impulse, 16GB, 3600MHz, DDR4, CL26, Dourada - HGMF028</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="https://images5.kabum.com.br/produtos/fotos/473175/gabinete-gamer-redragon-wideload-lite-preto-ca-604b_1697812301_gg.jpg"
+                    class="card-img-top" alt="Gabinetes">
+                <div class="card-body">
+                    <h5 class="card-title">Gabinetes</h5>
+                    <p class="card-text">Gabinete Gamer Redragon Wideload Lite, Mid Tower, ATX, Lateral em Vidro
+                        Temperado, Preto - CA-604B</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="https://images6.kabum.com.br/produtos/fotos/462816/fonte-msi-mag-a850gl-atx-850w-80-plus-gold-modular-pfc-ativo-bivolt-preto_1698349376_gg.jpg"
+                    class="card-img-top" alt="Fontes de Alimentação">
+                <div class="card-body">
+                    <h5 class="card-title">Fontes de Alimentação</h5>
+                    <p class="card-text">Fonte MSI MAG A850GL, 850W, 80 Plus Gold, Modular, PFC Ativo, Com Cabo, Preto
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="https://images6.kabum.com.br/produtos/fotos/514256/ssd-rise-mode-gamer-m-2-z-series-1tb-m-2-nvme-leitura-2200mb-s-e-gravacao-1800mb-s-rm-ssd-1tb-m2_1708090901_gg.jpg"
+                    class="card-img-top" alt="Ssd">
+                <div class="card-body">
+                    <h5 class="card-title">Ssd</h5>
+                    <p class="card-text">SSD Rise Mode Gamer M.2 Z Series, 1TB, M.2, NVMe, Leitura: 2200MB/s e Gravação:
+                        1800MB/s</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="https://images4.kabum.com.br/produtos/fotos/508354/water-cooler-gigabyte-aorus-360-rgb-360mm-intel-amd-preto-gp-aorus-waterforce-ii-360_1721145499_gg.jpg"
+                    class="card-img-top" alt="Water cooler">
+                <div class="card-body">
+                    <h5 class="card-title">Water cooler</h5>
+                    <p class="card-text">Water Cooler Gigabyte Aorus 360, RGB, 360mm, AMD/Intel, Preto - GP-AORUS
+                        WATERFORCE II 360</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="https://images2.kabum.com.br/produtos/fotos/714572/placa-de-video-rtx-5070-eagle-oc-ice-sff-12g-gigabyte-nvidia-geforce-12gb-gddr7-192bits-rgb-dlss-ray-tracing-9vn5070eoi-00-g10_1740568206_gg.jpg"
+                    class="card-img-top" alt="Placa de Vídeo">
+                <div class="card-body">
+                    <h5 class="card-title">Placa de Vídeo</h5>
+                    <p class="card-text">Placa De Vídeo Gigabyte RTX 5070 Ti Eagle Ice Sff 16gb Gddr7 256 Bits -
+                        Gv-n507teagleoc Ice-16gd</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <h5>Sobre a Loja</h5>
+                <p>Teles Byte é sua melhor escolha para componentes de informática de alta qualidade. Oferecemos
+                    produtos dos melhores fabricantes com preços competitivos.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5>Links Rápidos</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none">Início</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Produtos</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Sobre</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Contato</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5>Contato</h5>
+                <p>
+                    <i class="bi bi-envelope"></i> contato@telesbyte.com.br<br>
+                    <i class="bi bi-telephone"></i> (11) 9999-9999<br>
+                    <i class="bi bi-geo-alt"></i> São Paulo, SP
+                </p>
+            </div>
+        </div>
+        <hr class="bg-white">
+        <div class="text-center">
+            <p class="mb-0">&copy; 2024 Teles Byte. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+<script src="public/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
