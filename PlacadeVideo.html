@@ -1,147 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-    <div class="container-fluid">
-        <a class="navbar-brand text-center" href="Home.html">JT Informática</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <div class="d-flex justify-content-center">
-                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+        <div class="container-fluid">
+            <a class="navbar-brand text-center" href="Home.html">JT Informática</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <div class="d-flex justify-content-center">
+                            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                        </div>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contato</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5 mb-5">
+        <h2 class="text-center" style="margin-top: 80px !important;">Placas de Vídeo</h2>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-1">Filtros</h5>
                     </div>
-                   
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Início</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Produtos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Contato</a>
-                </li>
-                
-            </ul>
-        </div>
-    </div>
-</nav><div class="container mt-5 mb-5">
-    <h2 class="text-center" style="margin-top: 80px !important;">Placas de Vídeo</h2>
-</div>
-<div class="container" style="margin-top: 100px;">
-    <div class="row g-4">
-        <div class="col-md-4">
-            <div class="card">
-                <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/9/1/912-v510-2993.jpg" class="card-img-top" alt="Placa de Vídeo 1">
-                <div class="card-body">
-                    <h5 class="card-title">RTX 4090</h5>
-                    <p class="card-text">Placa de vídeo de última geração com 24GB de VRAM.</p>
-                    <p class="card-text"><strong>R$ 12.999,00</strong></p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <h6 class="mb-3">Marcas</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="power400" value="400">
+                                <label class="form-check-label" for="power400">Asus</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="power500" value="500">
+                                <label class="form-check-label" for="power500">Gigabyte</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="power650" value="650">
+                                <label class="form-check-label" for="power650">EVGA</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="power850" value="850">
+                                <label class="form-check-label" for="power850">MSI</label>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <h6 class="mb-3">Eficiência</h6>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="eff80" value="80">
+                                <label class="form-check-label" for="eff80">4gb</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="eff80" value="80">
+                                <label class="form-check-label" for="eff80">8gb</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="effGold" value="gold">
+                                <label class="form-check-label" for="effGold">16gb</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="effPlatinum" value="platinum">
+                                <label class="form-check-label" for="effPlatinum">32gb</label>
+                            </div>
+                        </div>
+                        <div>
+                            <h6 class="mb-3">Preço</h6>
+                            <input type="range" class="form-range" min="100" max="20000" id="priceRange">
+                            <small class="text-muted">R$ 100 - R$ 20.000</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        <div class="col-md-9">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/9/1/912-v510-2993.jpg"
+                            class="card-img-top" alt="Placa de Vídeo 1">
+                        <div class="card-body">
+                            <h5 class="card-title">RTX 4090</h5>
+                            <p class="card-text">Placa de vídeo de última geração com 24GB de VRAM.</p>
+                            <p class="card-text"><strong>R$ 12.999,00</strong></p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/g/v/gv-n4080gaming-oc-16gd-g108.jpg"
+                            class="card-img-top" alt="Placa de Vídeo 2">
+                        <div class="card-body">
+                            <h5 class="card-title">RTX 4080</h5>
+                            <p class="card-text">Excelente desempenho com 16GB de VRAM.</p>
+                            <p class="card-text"><strong>R$ 8.499,00</strong></p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/g/v/gv-n4070wf3oc-12gd7_1.jpg"
+                            class="card-img-top" alt="Placa de Vídeo 3">
+                        <div class="card-body">
+                            <h5 class="card-title">RTX 4070</h5>
+                            <p class="card-text">Ótima relação custo-benefício com 12GB de VRAM.</p>
+                            <p class="card-text"><strong>R$ 5.299,00</strong></p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/n/4/n406t2-08d6-171153n-nac1_1.jpg"
+                            class="card-img-top" alt="Placa de Vídeo 4">
+                        <div class="card-body">
+                            <h5 class="card-title">RTX 4060 Ti</h5>
+                            <p class="card-text">Ideal para gaming 1440p com 8GB de VRAM.</p>
+                            <p class="card-text"><strong>R$ 2.799,00</strong></p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/p/r/prime-rtx5070ti-16g-nac1.jpg"
+                            class="card-img-top" alt="Placa de Vídeo 5">
+                        <div class="card-body">
+                            <h5 class="card-title">RTX 5070 Ti</h5>
+                            <p class="card-text">Perfeita para gaming 1080p com 8GB de VRAM.</p>
+                            <p class="card-text"><strong>R$ 7.999,00</strong></p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/r/x/rx-97trgbbb9.jpg"
+                            class="card-img-top" alt="Placa de Vídeo 6">
+                        <div class="card-body">
+                            <h5 class="card-title">RX 9070 XT</h5>
+                            <p class="card-text">Alternativa AMD com 20GB de VRAM.</p>
+                            <p class="card-text"><strong>R$ 7.999,00</strong></p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/9/0/90-ga4rzz-00uanf_1.jpg"
+                            class="card-img-top" alt="Placa de Vídeo 7">
+                        <div class="card-body">
+                            <h5 class="card-title">RX 7800 XT</h5>
+                            <p class="card-text">Ótimo custo-benefício com 16GB de VRAM.</p>
+                            <p class="card-text"><strong>R$ 4.999,00</strong></p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/9/1/912v531418nac12554.jpg"
+                            class="card-img-top" alt="Placa de Vídeo 8">
+                        <div class="card-body">
+                            <h5 class="card-title">RTX 5080 </h5>
+                            <p class="card-text">Boa performance com 12GB de VRAM.</p>
+                            <p class="card-text"><strong>R$ 2.299,00</strong></p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/v/c/vcg4070t12tfxxpb1-o1.jpg"
+                            class="card-img-top" alt="Placa de Vídeo 9">
+                        <div class="card-body">
+                            <h5 class="card-title">RTX 4070 Ti</h5>
+                            <p class="card-text">Perfeita para gaming 1440p com 12GB de VRAM.</p>
+                            <p class="card-text"><strong>R$ 5.999,00</strong></p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/g/v/gv-n4080gaming-oc-16gd-g108.jpg" class="card-img-top" alt="Placa de Vídeo 2">
-                <div class="card-body">
-                    <h5 class="card-title">RTX 4080</h5>
-                    <p class="card-text">Excelente desempenho com 16GB de VRAM.</p>
-                    <p class="card-text"><strong>R$ 8.499,00</strong></p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
         </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/g/v/gv-n4070wf3oc-12gd7_1.jpg" class="card-img-top" alt="Placa de Vídeo 3">
-                <div class="card-body">
-                    <h5 class="card-title">RTX 4070</h5>
-                    <p class="card-text">Ótima relação custo-benefício com 12GB de VRAM.</p>
-                    <p class="card-text"><strong>R$ 5.299,00</strong></p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/n/4/n406t2-08d6-171153n-nac1_1.jpg" class="card-img-top" alt="Placa de Vídeo 4">
-                <div class="card-body">
-                    <h5 class="card-title">RTX 4060 Ti</h5>
-                    <p class="card-text">Ideal para gaming 1440p com 8GB de VRAM.</p>
-                    <p class="card-text"><strong>R$ 2.799,00</strong></p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/p/r/prime-rtx5070ti-16g-nac1.jpg" class="card-img-top" alt="Placa de Vídeo 5">
-                <div class="card-body">
-                    <h5 class="card-title">RTX 5070 Ti</h5>
-                    <p class="card-text">Perfeita para gaming 1080p com 8GB de VRAM.</p>
-                    <p class="card-text"><strong>R$ 7.999,00</strong></p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/r/x/rx-97trgbbb9.jpg" class="card-img-top" alt="Placa de Vídeo 6">
-                <div class="card-body">
-                    <h5 class="card-title">RX 9070 XT</h5>
-                    <p class="card-text">Alternativa AMD com 20GB de VRAM.</p>
-                    <p class="card-text"><strong>R$ 7.999,00</strong></p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/9/0/90-ga4rzz-00uanf_1.jpg" class="card-img-top" alt="Placa de Vídeo 7">
-                <div class="card-body">
-                    <h5 class="card-title">RX 7800 XT</h5>
-                    <p class="card-text">Ótimo custo-benefício com 16GB de VRAM.</p>
-                    <p class="card-text"><strong>R$ 4.999,00</strong></p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/9/1/912v531418nac12554.jpg" class="card-img-top" alt="Placa de Vídeo 8">
-                <div class="card-body">
-                    <h5 class="card-title">RTX 5080 </h5>
-                    <p class="card-text">Boa performance com 12GB de VRAM.</p>
-                    <p class="card-text"><strong>R$ 2.299,00</strong></p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/v/c/vcg4070t12tfxxpb1-o1.jpg" class="card-img-top" alt="Placa de Vídeo 9">
-                <div class="card-body">
-                    <h5 class="card-title">RTX 4070 Ti</h5>
-                    <p class="card-text">Perfeita para gaming 1440p com 12GB de VRAM.</p>
-                    <p class="card-text"><strong>R$ 5.999,00</strong></p>
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </body>
+
 </html>

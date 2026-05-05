@@ -44,113 +44,183 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <div class="container mt-5 mb-5">
         <h2 class="text-center" style="margin-top: 80px !important;">Processadores</h2>
+        
         <div class="container mt-5">
-            <div class="row g-4">
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-1">Filtros</h5>
+                        </div>
                         <div class="card-body">
-                            <img src="https://m.media-amazon.com/images/I/619ytLAytAL._AC_SY300_SX300_QL70_ML2_.jpg"
-                                class="card-img-top" alt="Intel Core i9 14900K">
-                            <h5 class="card-title">Intel Core i9 14900K</h5>
-                            <p class="card-text">24 núcleos e 32 threads, com Turbo Boost de até 6,0 GHz.</p>
-                            <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
+                            <div class="mb-3">
+                                <h6 class="mb-3">Marcas</h6>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="power400" value="400">
+                                    <label class="form-check-label" for="power400">Intel</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="power500" value="500">
+                                    <label class="form-check-label" for="power500">AMD</label>
+                                </div>
+                                    
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="mb-3">Séries</h6>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="eff80" value="80">
+                                    <label class="form-check-label" for="eff80">Core 3</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="eff80" value="80">
+                                    <label class="form-check-label" for="eff80">Core 5</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="effGold" value="gold">
+                                    <label class="form-check-label" for="effGold">Core 7</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="effPlatinum" value="platinum">
+                                    <label class="form-check-label" for="effPlatinum">Core 9</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="effPlatinum" value="platinum">
+                                    <label class="form-check-label" for="effPlatinum">Ryzen 3</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="effPlatinum" value="platinum">
+                                    <label class="form-check-label" for="effPlatinum">Ryzen 5</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="effPlatinum" value="platinum">
+                                    <label class="form-check-label" for="effPlatinum">Ryzen 7</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="effPlatinum" value="platinum">
+                                    <label class="form-check-label" for="effPlatinum">Ryzen 9</label>
+                                </div>
+                            </div>
+                            <div>
+                                <h6 class="mb-3">Preço</h6>
+                                <input type="range" class="form-range" min="100" max="20000" id="priceRange">
+                                <small class="text-muted">R$ 100 - R$ 20.000</small>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <img src="https://m.media-amazon.com/images/I/51iH16H8wgL._AC_SY300_SX300_QL70_ML2_.jpg"
-                                class="card-img-top" alt="AMD Ryzen 9 9900X3D">
-                            <h5 class="card-title">AMD Ryzen 9 9900X3D</h5>
-                            <p class="card-text">AM5/ 12 Cores/ 24 Threads/ 5.5 GHz/ 140Mb Cache/Radeon Graphics</p>
-                            <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <img src="https://m.media-amazon.com/images/I/615MgoZ62BL._AC_SY300_SX300_QL70_ML2_.jpg"
-                                class="card-img-top" alt="Intel Core i7 14900K">
-                            <h5 class="card-title">Intel Core i7 14900K</h5>
-                            <p class="card-text">24 núcleos (8 núcleos P + 16 núcleos E) e 32 threads. Gráficos UHD
-                                Intel integrados 770 incluídos</p>
-                                <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <img src="https://m.media-amazon.com/images/I/71aHvYUgX1L._AC_SY300_SX300_QL70_ML2_.jpg"
-                                class="card-img-top" alt="AMD Ryzen 7 5800X">
-                            <h5 class="card-title">AMD Ryzen 7 5800X</h5>
-                            <p class="card-text">3.4GHz (TURBO 4.6GHz) 32MB CACHE AM4 100-100000926WOF</p>
-                            <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <img src="https://m.media-amazon.com/images/I/615MgoZ62BL._AC_SX679_.jpg"
-                                class="card-img-top" alt="INTEL CORE I5-14600KF">
-                            <h5 class="card-title">INTEL CORE I5-14600KF</h5>
-                            <p class="card-text">14 núcleos e 20 threads, com uma frequência turbo de até 5,3 GHz.</p>
-                            <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <img src="https://m.media-amazon.com/images/I/51ld6RR8IrL._AC_SY879_.jpg"
-                                class="card-img-top" alt="AMD Ryzen 5 5600X">
-                            <h5 class="card-title"> AMD Ryzen 5 5600X</h5>
-                            <p class="card-text">AM5/6 Cores/12 Threads/5.3GHz/38MB Cache/Radeon Graphics</p>
-                            <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <img src="https://m.media-amazon.com/images/I/612vOhWmeIL._AC_SY300_SX300_QL70_ML2_.jpg"
-                                class="card-img-top" alt="Intel Core i3 14100F">
-                            <h5 class="card-title">Intel Core i3 14100F</h5>
-                            <p class="card-text">4 núcleos e 8 threads, este processador oferece uma frequência base de
-                                3,5 GHz.</p>
-                                <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <img src="https://m.media-amazon.com/images/I/81DdgQpbMqL._AC_SY300_SX300_QL70_ML2_.jpg"
-                                class="card-img-top" alt="AMD Ryzen 3 3200G">
-                            <h5 class="card-title">AMD Ryzen 3 3200G</h5>
-                            <p class="card-text">3.6GHz (4.0GHz TURBO), 4-CORES 4-THRED</p>
-                            <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
-                        <div class="card-body">
-                            <img src="https://m.media-amazon.com/images/I/71hZfMZNZuL._AC_SX679_.jpg"
-                                class="card-img-top" alt="AMD Ryzen 9 9950X3D">
-                            <h5 class="card-title">AMD Ryzen 9 9950X3D</h5>
-                            <p class="card-text">AM5/ 16 Cores/ 32 Threads/ 4.7 GHz/ 140Mb Cache/Radeon Graphics</p>
-                            <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+                <div class="col-md-9">
+                    <div class="row g-4">
+                        <div class="col-md-4 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <img src="https://m.media-amazon.com/images/I/619ytLAytAL._AC_SY300_SX300_QL70_ML2_.jpg"
+                                        class="card-img-top" alt="Intel Core i9 14900K">
+                                    <h5 class="card-title">Intel Core i9 14900K</h5>
+                                    <p class="card-text">24 núcleos e 32 threads, com Turbo Boost de até 6,0 GHz.</p>
+                                    <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <img src="https://m.media-amazon.com/images/I/51iH16H8wgL._AC_SY300_SX300_QL70_ML2_.jpg"
+                                        class="card-img-top" alt="AMD Ryzen 9 9900X3D">
+                                    <h5 class="card-title">AMD Ryzen 9 9900X3D</h5>
+                                    <p class="card-text">AM5/ 12 Cores/ 24 Threads/ 5.5 GHz/ 140Mb Cache/Radeon Graphics
+                                    </p>
+                                    <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <img src="https://m.media-amazon.com/images/I/615MgoZ62BL._AC_SY300_SX300_QL70_ML2_.jpg"
+                                        class="card-img-top" alt="Intel Core i7 14900K">
+                                    <h5 class="card-title">Intel Core i7 14900K</h5>
+                                    <p class="card-text">24 núcleos (8 núcleos P + 16 núcleos E) e 32 threads. Gráficos
+                                        UHD
+                                        Intel integrados 770 incluídos</p>
+                                    <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <img src="https://m.media-amazon.com/images/I/71aHvYUgX1L._AC_SY300_SX300_QL70_ML2_.jpg"
+                                        class="card-img-top" alt="AMD Ryzen 7 5800X">
+                                    <h5 class="card-title">AMD Ryzen 7 5800X</h5>
+                                    <p class="card-text">3.4GHz (TURBO 4.6GHz) 32MB CACHE AM4 100-100000926WOF</p>
+                                    <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <img src="https://m.media-amazon.com/images/I/615MgoZ62BL._AC_SX679_.jpg"
+                                        class="card-img-top" alt="INTEL CORE I5-14600KF">
+                                    <h5 class="card-title">INTEL CORE I5-14600KF</h5>
+                                    <p class="card-text">14 núcleos e 20 threads, com uma frequência turbo de até 5,3
+                                        GHz.</p>
+                                    <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <img src="https://m.media-amazon.com/images/I/51ld6RR8IrL._AC_SY879_.jpg"
+                                        class="card-img-top" alt="AMD Ryzen 5 5600X">
+                                    <h5 class="card-title"> AMD Ryzen 5 5600X</h5>
+                                    <p class="card-text">AM5/6 Cores/12 Threads/5.3GHz/38MB Cache/Radeon Graphics</p>
+                                    <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <img src="https://m.media-amazon.com/images/I/612vOhWmeIL._AC_SY300_SX300_QL70_ML2_.jpg"
+                                        class="card-img-top" alt="Intel Core i3 14100F">
+                                    <h5 class="card-title">Intel Core i3 14100F</h5>
+                                    <p class="card-text">4 núcleos e 8 threads, este processador oferece uma frequência
+                                        base de
+                                        3,5 GHz.</p>
+                                    <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <img src="https://m.media-amazon.com/images/I/81DdgQpbMqL._AC_SY300_SX300_QL70_ML2_.jpg"
+                                        class="card-img-top" alt="AMD Ryzen 3 3200G">
+                                    <h5 class="card-title">AMD Ryzen 3 3200G</h5>
+                                    <p class="card-text">3.6GHz (4.0GHz TURBO), 4-CORES 4-THRED</p>
+                                    <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <img src="https://m.media-amazon.com/images/I/71hZfMZNZuL._AC_SX679_.jpg"
+                                        class="card-img-top" alt="AMD Ryzen 9 9950X3D">
+                                    <h5 class="card-title">AMD Ryzen 9 9950X3D</h5>
+                                    <p class="card-text">AM5/ 16 Cores/ 32 Threads/ 4.7 GHz/ 140Mb Cache/Radeon Graphics
+                                    </p>
+                                    <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
